@@ -1,5 +1,8 @@
 # Lista 1
 
+### Data de entrega: 19/03
+> *Após essa data terá decréscimo de pontos. Exercícios copiados não serão aceitos.*
+
 1. Faça um programa que receba um número e verifique se ele é negativo ou não negativo.
 > Utilizar operador ternário.
 2. Faça um programa que solicite a entrada de um número e exiba se o número é par ou ímpar.
