@@ -1,5 +1,9 @@
 # Lista 2
 
+
+### Data de entrega: 26/03
+> *Após essa data terá decréscimo de pontos. Exercícios copiados não serão aceitos.*
+
 1. Desenvolva uma calculadora em C#, entrar com a operação (+, -, * e /) do tipo char, 
 o primeiro e o segundo valor, exiba o resultado da operação escolhida pelo usuário.
 > Use a estrutura de condição switch/case.
