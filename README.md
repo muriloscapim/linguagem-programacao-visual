@@ -1,6 +1,6 @@
 # Aulas
-- [Aula 1](aulas/AULA 1.pdf)
-- [Aula 2](aulas/AULA 2.pdf)
+- [Aula 1](aulas/AULA-1.pdf)
+- [Aula 2](aulas/AULA-2.pdf)
 
 # Listas de Exercícios
 - [Lista 1](lista1/README.md)
