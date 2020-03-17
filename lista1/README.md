@@ -38,4 +38,4 @@ usuário o código do funcionário e seu salário atual. Calcular o novo salári
 Exibir para o usuário a seguinte mensagem: "O funcionário 123, teve um aumento de R$ 45,00,
 e agora seu salário é: R$ 1545,00", caso o funcionário não tenha aumento exibir: "O funcionário 123,
 não teve aumento, o salário é: R$ 2100,00".
-    > Utilizar a interpolação de strings e delimitar o número de casas decimais do salário.
+   >Utilizar a interpolação de strings e delimitar o número de casas decimais do salário.
