@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Murilo\\source\\repos\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
+      "projectUniqueName": "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visualAula\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
       "projectName": "ContaBancaria",
-      "projectPath": "C:\\Users\\Murilo\\source\\repos\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
+      "projectPath": "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visualAula\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
       "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Murilo\\source\\repos\\ContaBancaria\\ContaBancaria\\obj\\",
+      "outputPath": "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visualAula\\ContaBancaria\\ContaBancaria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Murilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
