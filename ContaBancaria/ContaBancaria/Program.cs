@@ -6,36 +6,32 @@ namespace ContaBancaria
     {
         static void Main(string[] args)
         {
-            Cliente victor = new Cliente();
-            victor.nome = "Victor";
+            Cliente cliente = new Cliente();
+            cliente.Nome = "Victor";
+            cliente.Cpf = "123.456.789-09";
+            cliente.Rg = "12.345.678-0";
+            cliente.Endereco = "Rua de teste, 123, Centro";
 
-            Conta c = new Conta();
-            c.numero = 1;
-            /* o atributo titular guarda uma referência
-             * para uma instância da classe Cliente
-             */
-            c.titular = victor;
-            c.Deposita(100.0);
-            bool deuCerto = c.Saca(10.0);
+            Conta conta = new Conta();
+            conta.Numero = 1;
+            conta.Titular = cliente;
+            conta.Deposita(200.0);
+            Console.WriteLine(conta.Saca(100.0) ? "Saque realizado com sucesso!" :
+                "Saldo insuficiente!");
 
-            Console.WriteLine(deuCerto ? "Saque realizado com sucesso!"
-                : "Saldo insuficiente!");
+            Console.WriteLine($"Conta número: {conta.Numero}");
+            Console.WriteLine($"Titular da conta: {conta.Titular.Nome}");
+            Console.WriteLine($"Saldo R$: {conta.Saldo}");
 
-            Console.WriteLine($"Conta número: {c.numero}, Titular: {c.titular.nome}");
+            Cliente cliente2 = new Cliente();
+            cliente2.Nome = "João";
 
-            Cliente joao = new Cliente();
-            joao.nome = "João";
+            Conta conta2 = new Conta();
+            conta2.Numero = 2;
+            conta2.Titular = cliente2;
+            conta2.Deposita(400.0);
 
-            Conta c1 = new Conta();
-            c1.numero = 2;
-            c1.titular = joao;
-            c1.Deposita(200.0);
-            c1.Saca(100.0);
-
-            c.Transfere(100.0, c1);
-
-            Console.WriteLine(c.saldo);
-            Console.WriteLine(c1.saldo);
+            conta.Transfere(100.0,conta2);
         }
     }
 }

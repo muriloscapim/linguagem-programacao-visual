@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visualAula\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {}
+    "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visual\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visualAula\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {
+    "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visual\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visualAula\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
+        "projectUniqueName": "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visual\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
         "projectName": "ContaBancaria",
-        "projectPath": "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visualAula\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
+        "projectPath": "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visual\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
         "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visualAula\\ContaBancaria\\ContaBancaria\\obj\\",
+        "outputPath": "C:\\Users\\Murilo\\Documents\\linguagem-programacao-visual\\ContaBancaria\\ContaBancaria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murilo\\AppData\\Roaming\\NuGet\\NuGet.Config",

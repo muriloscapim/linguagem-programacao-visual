@@ -6,16 +6,18 @@ namespace ContaBancaria
 {
     class Conta
     {
-        // declaração dos atributos
-        public int numero;
-        public Cliente titular;
-        public double saldo;
+        // Auto-implemented Properties
+        public int Numero { get; set; }
+        // get do saldo é público pode ser acessado por qualquer classe
+        // set do saldo é privado, só pode ser acessado na classe Conta
+        public double Saldo { get; private set; }
+        public Cliente Titular { get; set; }
 
         public bool Saca(double valor)
         {
-            if(this.saldo >= valor)
+            if(this.Saldo >= valor)
             {
-                this.saldo -= valor;
+                this.Saldo -= valor;
                 return true;
             }
             return false;
@@ -24,7 +26,7 @@ namespace ContaBancaria
         recebe um double como argumento */
         public void Deposita(double valor)
         {
-            this.saldo += valor;
+            this.Saldo += valor;
         }
 
         /* dentro do método this possui o valor da
