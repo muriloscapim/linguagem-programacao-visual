@@ -10,5 +10,6 @@ namespace ContaBancaria
         public string Cpf { get; set; }
         public string Rg { get; set; }
         public string Endereco { get; set; }
+        public DateTime DataNascimento { get; set; }
     }
 }

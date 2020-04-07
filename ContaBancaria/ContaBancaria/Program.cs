@@ -11,11 +11,13 @@ namespace ContaBancaria
             cliente.Cpf = "123.456.789-09";
             cliente.Rg = "12.345.678-0";
             cliente.Endereco = "Rua de teste, 123, Centro";
+            cliente.DataNascimento = new DateTime(1995, 6, 12);
 
             Conta conta = new Conta();
             conta.Numero = 1;
             conta.Titular = cliente;
             conta.Deposita(200.0);
+         
             Console.WriteLine(conta.Saca(100.0) ? "Saque realizado com sucesso!" :
                 "Saldo insuficiente!");
 
