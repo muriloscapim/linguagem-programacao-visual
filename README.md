@@ -40,7 +40,8 @@ public class Conta
 ```c#
 ContaPoupanca c = new ContaPoupanca();
 c.Taxa = 0.10;
-/* A classe filha não sobrescreveu o método Deposita, o método na classe pai será utilizado
+/* A classe filha não sobrescreveu o método Deposita, o método na classe
+pai será utilizado
 */
 c.Deposita(100.0);
 /* Usa o método Saca que foi sobrescrito na classe filha */
