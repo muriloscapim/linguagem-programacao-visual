@@ -3,6 +3,10 @@
 - [Lista 2](lista2/README.md)
 
 ## Herança
+![33333](https://user-images.githubusercontent.com/56240254/79496827-1a204f80-7ffd-11ea-871b-491904a59f5c.png)
+
+![Class Diagram0](https://user-images.githubusercontent.com/56240254/79497452-1a6d1a80-7ffe-11ea-9bba-1e90b18b8a35.jpg)
+
 ```c#
 class ContaPoupanca : Conta
 {
