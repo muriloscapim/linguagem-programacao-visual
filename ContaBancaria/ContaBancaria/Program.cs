@@ -6,16 +6,12 @@ namespace ContaBancaria
     {
         static void Main(string[] args)
         {
-            Cliente cliente = new Cliente();
-            cliente.Nome = "Victor";
-            cliente.Cpf = "123.456.789-09";
-            cliente.Rg = "12.345.678-0";
+            Cliente cliente = new Cliente("Victor","123.456.789-09","12.345.678-0");
             cliente.Endereco = "Rua de teste, 123, Centro";
             cliente.DataNascimento = new DateTime(1995, 6, 12);
 
-            Conta conta = new Conta();
+            Conta conta = new Conta(cliente);
             conta.Numero = 1;
-            conta.Titular = cliente;
             conta.Deposita(200.0);
          
             Console.WriteLine(conta.Saca(100.0) ? "Saque realizado com sucesso!" :
@@ -28,12 +24,17 @@ namespace ContaBancaria
             Cliente cliente2 = new Cliente();
             cliente2.Nome = "João";
 
-            Conta conta2 = new Conta();
+            Conta conta2 = new Conta(cliente2);
             conta2.Numero = 2;
             conta2.Titular = cliente2;
             conta2.Deposita(400.0);
 
             conta.Transfere(100.0,conta2);
+
+            ContaPoupanca c = new ContaPoupanca();
+            c.Taxa = 0.10;
+            c.Deposita(100.0);
+            c.Saca(50.0);
         }
     }
 }

@@ -10,10 +10,15 @@ namespace ContaBancaria
         public int Numero { get; set; }
         // get do saldo é público pode ser acessado por qualquer classe
         // set do saldo é privado, só pode ser acessado na classe Conta
-        public double Saldo { get; private set; }
+        public double Saldo { get; protected set; }
         public Cliente Titular { get; set; }
+     
+        public Conta(Cliente titular)
+        {
+            this.Titular = titular;
+        }
 
-        public bool Saca(double valor)
+        public virtual bool Saca(double valor)
         {
             if(this.Saldo >= valor)
             {

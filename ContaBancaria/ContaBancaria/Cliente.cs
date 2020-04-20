@@ -11,5 +11,17 @@ namespace ContaBancaria
         public string Rg { get; set; }
         public string Endereco { get; set; }
         public DateTime DataNascimento { get; set; }
+
+        public Cliente()
+        {
+
+        }
+
+        public Cliente(string nome, string cpf, string rg)
+        {
+            this.Nome = nome;
+            this.Cpf = cpf;
+            this.Rg = rg;
+        }
     }
 }
