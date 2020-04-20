@@ -61,3 +61,91 @@ public class Conta
 {
   public double Saldo { get; protected set; }
 }
+```
+
+### Construtores
+
+Sempre que inicializamos uma classe filha de outra no C#, ela chama um construtor para inicializar a classe base.
+Ou seja, na classe filha o construtor padrão implicito faz uma chamada ao construtor da classe pai. Exemplo:
+
+```c#
+class Carro : Veiculo
+{
+   public int QuantidadeAssentos { get; set; }
+   
+   public Carro() : base()
+   {
+   }
+}
+```
+
+A partir do momento que fomos na classe pai e criamos um construtor, ele se torna o construtor padrão da classe.
+Essa chamada ao construtor da classe pai não vai mais funcionar, pois não existe mais um construtor sem argumentos lá.
+Para o código funcionar, temos que explicitamente criar o construtor padrão sem argumentos na classe pai.
+
+```c#
+public class Conta
+{
+  public Conta()
+  {
+  }
+}
+```
+Construtores não são herdados.
+
+Sempre que precisarmos de um construtor na classe filha igual ao da classe pai, precisamos declará-lo explicitamente.
+
+```c#
+public class ContaPoupanca : Conta
+{
+  public ContaPoupanca(Cliente titular)
+  {
+     this.Titular = titular;
+  }
+}
+```
+
+Esse construtor na classe filha faz exatamente a mesma coisa que o construtor da classe pai.
+Podemos reaproveitar o comportamento do construtor da classe pai:
+
+```c#
+public class ContaPoupanca : Conta
+{
+/* chama o construtor da classe pai que tem os mesmos tipos de argumentos */
+  public ContaPoupanca(Cliente titular) : base(titular)
+  {
+  }
+}
+```
+
+### Reaproveitando a implementação da classe base
+
+As implementações dos métodos Saca das classes Conta e ContaPoupanca são praticamente iguais, com poucas mudanças.
+
+Quando fazemos a sobrescrita de métodos em uma classe filha, muitas vezes, queremos apenas mudar pouca coisa do comportamento da classe base.
+
+No código da classe filha, podemos reutilizar o código da classe pai com a palavra-chave **base** chamando o comportamento que queremos reaproveitar.
+
+Então o código do método Saca da ContaPoupanca poderia ser reescrito da seguinte forma:
+
+```c#
+public class ContaPoupanca : Conta
+{
+   public override void Saca(double valor)
+   {
+   /* chama o método da classe pai passando como argumento valor + 0.10 */
+      base.Saca(valor + 0.10);
+   }
+}
+```
+
+Dessa forma a classe filha não está utilizando a propriedade Saldo da Conta, que pode ser private.
+
+```c#
+public class Conta
+{
+   public double Saldo { get; private set; }
+   
+   // outras propriedades e métodos
+}
+```
