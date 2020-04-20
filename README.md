@@ -5,7 +5,7 @@
 ## Herança
 ![33333](https://user-images.githubusercontent.com/56240254/79496827-1a204f80-7ffd-11ea-871b-491904a59f5c.png)
 
-![Class Diagram0](https://user-images.githubusercontent.com/56240254/79497452-1a6d1a80-7ffe-11ea-9bba-1e90b18b8a35.jpg)
+![diagrama](https://user-images.githubusercontent.com/56240254/79788359-ea37bb80-831e-11ea-89c0-b9c3189ffc21.jpg)
 
 ```c#
 class ContaPoupanca : Conta
@@ -117,6 +117,17 @@ public class ContaPoupanca : Conta
   }
 }
 ```
+
+*Construtores não são herdados pelas subclasses.*
+
+*Subclasses utilizam, implicitamente ou explicitamente, construtores da superclasse para incializar os membros herdados.*
+
+*Na forma explícita o programador chama algum construtor da superclasse através da instrução **base***.
+
+*Na forma implícita o compilador utiliza o construtor padrão da classe base. Em caso de inexistência do construtor padrão na classe base, é gerado um erro de compilação.*
+
+*Construtores das classes derivadas devem obrigatoriamente chamar algum construtor da classe base, seja de forma implícita ou explícita.*
+
 
 ### Reaproveitando a implementação da classe base
 
