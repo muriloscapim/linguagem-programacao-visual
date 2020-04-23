@@ -3,7 +3,6 @@
 - [Lista 2](lista2/README.md)
 
 ## Herança
-![33333](https://user-images.githubusercontent.com/56240254/79496827-1a204f80-7ffd-11ea-871b-491904a59f5c.png)
 
 ![diagrama](https://user-images.githubusercontent.com/56240254/79788359-ea37bb80-831e-11ea-89c0-b9c3189ffc21.jpg)
 
