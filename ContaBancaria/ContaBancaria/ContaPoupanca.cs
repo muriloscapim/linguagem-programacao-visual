@@ -8,14 +8,15 @@ namespace ContaBancaria
     {
         public double Taxa { get; set; }
 
+        public ContaPoupanca(Cliente titular, double saldo)
+            : base(titular, saldo)
+        {
+
+        }
+
         public override bool Saca(double valor)
         {
-            if (this.Saldo >= (valor + Taxa))
-            {
-                this.Saldo -= (valor + Taxa);
-                return true;
-            }
-            return false;
+            return base.Saca(valor + Taxa);
         }
     }
 }
