@@ -1,0 +1,4 @@
+C:\Users\Murilo\Documents\linguagem-programacao-visual\Banco\Banco\obj\Debug\netcoreapp3.1\Banco.csprojAssemblyReference.cache
+C:\Users\Murilo\Documents\linguagem-programacao-visual\Banco\Banco\obj\Debug\netcoreapp3.1\Banco.csproj.CoreCompileInputs.cache
+C:\Users\Murilo\Documents\linguagem-programacao-visual\Banco\Banco\obj\Debug\netcoreapp3.1\Banco.AssemblyInfoInputs.cache
+C:\Users\Murilo\Documents\linguagem-programacao-visual\Banco\Banco\obj\Debug\netcoreapp3.1\Banco.AssemblyInfo.cs
