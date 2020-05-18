@@ -1,0 +1,13 @@
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\bin\Debug\netcoreapp3.1\ExemploAula.exe
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\bin\Debug\netcoreapp3.1\ExemploAula.deps.json
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\bin\Debug\netcoreapp3.1\ExemploAula.runtimeconfig.json
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\bin\Debug\netcoreapp3.1\ExemploAula.runtimeconfig.dev.json
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\bin\Debug\netcoreapp3.1\ExemploAula.dll
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\bin\Debug\netcoreapp3.1\ExemploAula.pdb
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\obj\Debug\netcoreapp3.1\ExemploAula.csprojAssemblyReference.cache
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\obj\Debug\netcoreapp3.1\ExemploAula.csproj.CoreCompileInputs.cache
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\obj\Debug\netcoreapp3.1\ExemploAula.AssemblyInfoInputs.cache
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\obj\Debug\netcoreapp3.1\ExemploAula.AssemblyInfo.cs
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\obj\Debug\netcoreapp3.1\ExemploAula.dll
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\obj\Debug\netcoreapp3.1\ExemploAula.pdb
+C:\Users\Murilo\source\repos\ExemploAula\ExemploAula\obj\Debug\netcoreapp3.1\ExemploAula.genruntimeconfig.cache
