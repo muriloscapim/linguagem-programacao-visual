@@ -1,0 +1,13 @@
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\bin\Debug\netcoreapp3.1\AulaExcecoes.exe
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\bin\Debug\netcoreapp3.1\AulaExcecoes.deps.json
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\bin\Debug\netcoreapp3.1\AulaExcecoes.runtimeconfig.json
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\bin\Debug\netcoreapp3.1\AulaExcecoes.runtimeconfig.dev.json
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\bin\Debug\netcoreapp3.1\AulaExcecoes.dll
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\bin\Debug\netcoreapp3.1\AulaExcecoes.pdb
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\obj\Debug\netcoreapp3.1\AulaExcecoes.csprojAssemblyReference.cache
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\obj\Debug\netcoreapp3.1\AulaExcecoes.csproj.CoreCompileInputs.cache
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\obj\Debug\netcoreapp3.1\AulaExcecoes.AssemblyInfoInputs.cache
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\obj\Debug\netcoreapp3.1\AulaExcecoes.AssemblyInfo.cs
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\obj\Debug\netcoreapp3.1\AulaExcecoes.dll
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\obj\Debug\netcoreapp3.1\AulaExcecoes.pdb
+C:\Users\Murilo\Desktop\AulaExcecoes\AulaExcecoes\obj\Debug\netcoreapp3.1\AulaExcecoes.genruntimeconfig.cache
